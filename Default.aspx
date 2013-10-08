@@ -15,7 +15,8 @@
 
 
         <br />
-        <br />
+        <div id="header">
+        Salary Calculator</div><br />
         <br />
         <br />
         <table class="auto-style1">
@@ -67,7 +68,10 @@
             </tr>
         </table>
         <br />
-    
+        <br />
+        <br />
+        <br />
+    <div id="footer">This page was created for educational purposes.</div>
 
 
     </div>

@@ -1,9 +1,13 @@
 ﻿body {
     background-color:green;
+    margin-top: 80px;
 }
 
 .auto-style1 {
             width: 70%;
+            border:solid;
+            width: 900px;
+            margin: auto;
         }
 
 .auto-style2 {
@@ -15,7 +19,26 @@
 
 .auto-style4 {
             width: 254px;
+            font-weight: bold;
+            font-size: 18px;
         }
 
-       
- 
+#header {
+            width: 900px;
+            margin:auto;
+            font-weight:bold;
+            font-size: x-large;
+            text-align:center;
+            border:solid;
+
+}
+
+
+#footer {
+            width: 900px;
+            margin:auto;
+            font-weight:bold;
+            font-size: x-large;
+            text-align:center;
+            border:solid;
+}
