@@ -1,5 +1,6 @@
 ﻿body {
-    background-color:#00ae68;
+    font-family: "Times New Roman", Arial, Verdana, Tahoma;
+    background-color:#21825b;
     margin-top: 20px;
 }
 
@@ -22,7 +23,7 @@
             border:thin;
             width: 900px;
             margin: auto;
-            background-color: #21825b;
+            background-color:#00ae68 ;
             padding:20px;
             
             
