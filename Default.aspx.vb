@@ -13,8 +13,8 @@ Partial Class _Default
         gross = hoursWorked * hoursRate
 
         If gross < 500 Then
-            gross = gross + (gross * 0.18)
-        Else : gross = gross + (gross * 0.22)
+            gross = gross - (gross * 0.18)
+        Else : gross = gross - (gross * 0.22)
         End If
 
         result = gross - preTax - afterTax

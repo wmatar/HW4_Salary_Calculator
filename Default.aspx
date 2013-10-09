@@ -29,7 +29,7 @@
             <tr>
                 <td class="auto-style8">Hours Worked:</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="tbHoursWorked" runat="server" Height="20px"></asp:TextBox>
+                    <asp:TextBox ID="tbHoursWorked" runat="server" Height="20px" BorderStyle="Groove"></asp:TextBox>
                 &nbsp;&nbsp;
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="tbHoursWorked" ErrorMessage="Please enter hours worked."></asp:RequiredFieldValidator>
 &nbsp;
@@ -38,7 +38,7 @@
             <tr>
                 <td class="auto-style8">Hourly Rate:</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="tbHoursRate" runat="server" Height="20px"></asp:TextBox>
+                    <asp:TextBox ID="tbHoursRate" runat="server" Height="20px" BorderStyle="Groove"></asp:TextBox>
                 &nbsp;&nbsp;
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="tbHoursRate" ErrorMessage="Please enter rate per hour."></asp:RequiredFieldValidator>
                 </td>
@@ -46,7 +46,7 @@
             <tr>
                 <td class="auto-style8">Pre-Tax Reduction:</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="tbPreTax" runat="server" Height="20px"></asp:TextBox>
+                    <asp:TextBox ID="tbPreTax" runat="server" Height="20px" BorderStyle="Groove"></asp:TextBox>
                 &nbsp;&nbsp;
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="tbPreTax" ErrorMessage="Please enter 0 if no value."></asp:RequiredFieldValidator>
                 </td>
@@ -54,7 +54,7 @@
             <tr>
                 <td class="auto-style8">After-Tax Reduction:</td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="tbAfterTax" runat="server" Height="20px"></asp:TextBox>
+                    <asp:TextBox ID="tbAfterTax" runat="server" Height="20px" BorderStyle="Groove"></asp:TextBox>
                 &nbsp;&nbsp;
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="tbAfterTax" ErrorMessage="Please enter 0 if no value."></asp:RequiredFieldValidator>
                 </td>
