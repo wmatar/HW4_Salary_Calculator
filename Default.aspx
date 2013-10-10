@@ -44,7 +44,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style8">Pre-Tax Reduction:</td>
+                <td class="auto-style8">Pre-Tax Deduction:</td>
                 <td class="auto-style3">
                     <asp:TextBox ID="tbPreTax" runat="server" Height="20px" BorderStyle="Groove"></asp:TextBox>
                 &nbsp;&nbsp;
@@ -52,7 +52,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style8">After-Tax Reduction:</td>
+                <td class="auto-style8">After-Tax Deduction:</td>
                 <td class="auto-style3">
                     <asp:TextBox ID="tbAfterTax" runat="server" Height="20px" BorderStyle="Groove"></asp:TextBox>
                 &nbsp;&nbsp;
